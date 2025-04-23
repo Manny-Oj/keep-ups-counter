@@ -1,0 +1,56 @@
+body {
+  background-image: url("soccer.jpg");
+  background-size: cover;
+  font-family: "Agu Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* vertically center */
+  margin: 0 auto;
+  height: 100vh; /* fill the whole viewport height */
+  max-width: 80%; /* keeps it horizontally centered */
+}
+
+h1 {
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 80%;
+  max-width: 300px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: blue;
+}
+
+#save-btn {
+  background: red;
+}
